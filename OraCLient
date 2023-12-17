@@ -1,0 +1,24 @@
+Oracle – Instalação Oracle Client 19 Windows
+
+ 
+Para realizar a instalação de um cliente Oracle, siga os passos a seguir:
+1. Obtenha o instalador do Oracle Cliente 32 bits;
+2. Descompacte o arquivo e acesse a pasta (o nome da pasta não pode haver nenhum espaço – “Cliente19c_32b”);
+3. Localize e execute um arquivo chamado Setup;
+4. Será iniciada a instalação do cliente Oracle. Nesta primeira tela, selecione o tipo de instalação, o modo Administrador, e clique no botão Próximo:
+  
+ 
+5. Use uma conta administrador local ou indique uma;
+ 
+6. Informe o diretório que será utilizado para a instalação. Por padrão criamos o diretório C:\Oracle. Preencha o campo OracleBase com esse diretório e clique em Próximo:
+ 
+ 
+7. Será realizado uma verificação no sistema
+ 
+8. Clique em instalar e aguarde a instalação;
+ 
+Observação: Esta etapa pode levar alguns minutos.
+ 
+9. Clique no botão Fechar para finalizar a instalação:
+ 
+10. Após a instalação, copiar o arquivo “tnsnames.ora” e colar no diretório “C:\Oracle\product\19.0.0\client_1\network\admin” em cada estação instalada;
