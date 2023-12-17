@@ -1,0 +1,12 @@
+-- Criar banco de dados oracle
+
+-- Criar as tablespaces (verificar o tamanho delas na homologação com o script de "aumentar tablespace");
+EX.:
+create tablespace SANKHYA datafile size 1G autoextend on maxsize 5G;
+
+
+-- Criar os owners (verificar quais permissões cada um possui);
+	Utilizar o script oracle "cria_usuarios_script_12c" e alterar o owner
+	Copiar os grants e executar no novo banco
+
+-- Realizar o restore das bases;
